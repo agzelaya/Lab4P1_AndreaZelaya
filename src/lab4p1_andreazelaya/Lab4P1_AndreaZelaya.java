@@ -186,13 +186,13 @@ public class Lab4P1_AndreaZelaya {
                 cont++;
             }
 
-            if ((int) chara > 91 && (int) chara < 96) {
+            if ((int) chara >= 91 && (int) chara <= 96) {
                 cont++;
             }
         }
 
         if (cont > 0) {
-            System.out.println("La cadena contiene caracteres que no solo con letras");
+            System.out.println("La cadena contiene caracteres que no solo son letras");
         } else {
             System.out.println("La cadena solo contiene letras");
         }
